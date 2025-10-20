@@ -20,7 +20,7 @@ CREATE TABLE Customers(
     address TEXT
 
 );
-CREATE TABLE orders(
+CREATE TABLE Orders(
     order_id INT PRIMARY KEY,
     customer_id INT,
     order_date DATE,
